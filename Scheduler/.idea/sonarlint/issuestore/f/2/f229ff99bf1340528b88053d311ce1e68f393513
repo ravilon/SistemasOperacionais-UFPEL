@@ -1,0 +1,30 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦”ãa8ø‚ª‘„2J$bbe00f92-e61a-4d9f-baed-ceee4fcb6fa6
+	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(¡“¥üÿÿÿÿ8ú‚ª‘„2J$fdb1e7aa-425c-4d95-9772-1d22e07dd6c9
+	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(şÃõ›üÿÿÿÿ8ú‚ª‘„2J$cdf22818-2ddb-42d7-8123-dbed5b60eb6b
+q
+java:S3740"/Provide the parametrized type for this generic.(äÙò(8ú‚ª‘„2J$db70b88c-f29d-48e0-afae-f649c06c798a
+w
+java:S3740;"/Provide the parametrized type for this generic.(şÃõ›üÿÿÿÿ8ú‚ª‘„2J$8627fc81-93c3-4993-9f41-ecc6d0d15de1
+w
+java:S3740="/Provide the parametrized type for this generic.(úò—‰øÿÿÿÿ8ú‚ª‘„2J$c8a7200e-480b-4046-a922-a84b7abbd1f0
+
+java:S2095C"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¦Äíóüÿÿÿÿ8ú‚ª‘„2J$b1e826d1-6348-41fe-b965-06bb22ab843e
+‘
+java:S2095ˆ"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(»Ì©éıÿÿÿÿ8ìÑâ‘„2J$be5d2a1d-049f-4c97-8b86-fa580460d4fc
+m	java:S106
+"+Replace this use of System.out by a logger.(¹„å‰8ş‚ª‘„2J$1f1c73af-d5f6-4d9d-8e10-19961cf918eb
+r	java:S106"+Replace this use of System.out by a logger.(öĞ»Œùÿÿÿÿ8ş‚ª‘„2J$1cc42fc0-4917-47d8-b8fc-610f36c04ffd
+m	java:S106"+Replace this use of System.out by a logger.(ğä´ü8ş‚ª‘„2J$ea9e4b88-cb04-4d86-9387-1ef9d613d45e
+r	java:S106"+Replace this use of System.out by a logger.(¥ÓµÛÿÿÿÿÿ8ş‚ª‘„2J$456413c7-4ccb-41c7-b85e-ed8ba0f28621
+r	java:S106"+Replace this use of System.out by a logger.(©Ü»ßùÿÿÿÿ8ş‚ª‘„2J$2004a15c-f213-405e-9afd-291f21404d04
+m	java:S106$"+Replace this use of System.out by a logger.(²¨”×8ÿ‚ª‘„2J$b36b4b3d-a6a4-4b6f-aed9-3d9c3955ebb6
+l	java:S1060"+Replace this use of System.out by a logger.(¸Åß8€ƒª‘„2J$fa5143b3-22ac-4b3c-9469-640811fd81a6
+m	java:S1063"+Replace this use of System.out by a logger.(ĞôÙ™8€ƒª‘„2J$35ac0b70-8dd8-48a1-be21-e0bda45145f6
+r	java:S1064"+Replace this use of System.out by a logger.(§Šù³ùÿÿÿÿ8€ƒª‘„2J$36a28b26-5769-4fa8-b611-a122c2f9cb4d
+r	java:S106J"+Replace this use of System.out by a logger.(ˆ÷Îºıÿÿÿÿ8…ƒª‘„2J$cf53498a-1941-4c70-98c1-014d56a88e49
+m	java:S106T"+Replace this use of System.out by a logger.(ÄÚõÈ8†ƒª‘„2J$9785da7e-f06f-497a-9530-7c4d9e6ea92d
+m	java:S106t"+Replace this use of System.out by a logger.(ÏúÊ¸8² ¯‘„2J$da2f971f-6241-4f26-b461-322dc038495e
+…	java:S899"BDo something with the "boolean" value returned by "createNewFile".(´ÂÖÙ8² ¯‘„2J$4f37c32d-8a1e-435b-9a86-6929077a65b1
+s	java:S106ƒ"+Replace this use of System.out by a logger.(íšÎÄüÿÿÿÿ8¿‘±‘„2J$a3d3677c-b9bc-4ef7-9c1e-76b0b983dcd4
+n	java:S106Œ"+Replace this use of System.out by a logger.(–¼Şé8§…Õ‘„2J$cf29d407-0855-4ae3-bba7-8826c7aa82aa
