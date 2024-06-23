@@ -5,9 +5,6 @@ V
 &src/main/java/Scheduler/Processor.java,5\f\5fa7459dd8bcd8988001eb0e23eeb1e7f13bb27f
 V
 &src/main/java/Scheduler/Scheduler.java,f\2\f229ff99bf1340528b88053d311ce1e68f393513
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 Å
 Q.idea/sonarlint/securityhotspotstore/f/2/f229ff99bf1340528b88053d311ce1e68f393513,e\0\e034650ef5dadf720fcff4135686fbb3ff745b5b
 Å
