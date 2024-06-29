@@ -42,43 +42,61 @@ public class Scheduler {
             processorList.add(new Processor());
         }
 
-        String processedTasks = processSJFPolicy(processorList, taskList);
+        String processedSJFTasks = processSJFPolicy(processorList, taskList);
 
-        if (processedTasks.isEmpty()) {
+        if (processedSJFTasks.isEmpty()) {
             System.out.println("No tasks processed.");
         }
 
         System.out.println("\nProcessed Tasks: \n");
-        System.out.println(processedTasks);
+        System.out.println(processedSJFTasks);
 
         //create a file with processedTasks content
-        generateOutputFile(processedTasks);
+        generateOutputFile(processedSJFTasks, "SJF");
 
+        // Apply the same logic for the BJF policy
+        taskList.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
+        processorList.clear();
+
+        for (int i = 0; i < processorsNumber; i++) {
+            processorList.add(new Processor());
+        }
+
+        String processedBJFTasks = processBJFPolicy(processorList, taskList);
+
+        if (processedBJFTasks.isEmpty()) {
+            System.out.println("No tasks processed.");
+        }
+
+        System.out.println("\nProcessed Tasks: \n");
+        System.out.println(processedBJFTasks);
+
+        generateOutputFile(processedBJFTasks, "BJF");
     }
 
-    private static Map getFileTasks (String filePath ) throws Exception {
+    protected static Map getFileTasks(String filePath) throws Exception {
         File inputFile = new File(filePath);
-        Map taskMap = new HashMap<>();
+        Map<Object, Object> taskMap = new HashMap<>();
 
-        if (!inputFile.exists()) {
-            throw new Exception("File not found.");
-        }
+        if (!inputFile.exists()) throw new Exception("File not found.");
+        try {
+            Scanner inputFileReader = new Scanner(inputFile);
 
-        Scanner inputFileReader = new Scanner(inputFile);
-
-        while (inputFileReader.hasNextLine()) {
+            while (inputFileReader.hasNextLine()) {
                 String data = inputFileReader.nextLine();
                 taskMap.put(data.split(" ")[0], Integer.parseInt(data.split(" ")[1]));
-        }
+            }
 
-        System.out.println("Tasks Map: ".concat(taskMap.toString()));
+            System.out.println("Tasks Map: ".concat(taskMap.toString()));
+        } catch (Exception e) {
+            System.out.println("Error reading file.");
+        }
         return taskMap;
     }
 
     private static String processSJFPolicy (List<Processor> processorList, List<Map.Entry<String, Integer>> taskList) {
         String processedTasks = "";
         int actualProcessor = 0;
-        int processorsSize = processorList.size();
 
         if (processorList.isEmpty() || taskList.isEmpty()) {
             System.out.println("No processors or tasks to process.");
@@ -89,7 +107,7 @@ public class Scheduler {
             Processor processor = processorList.get(actualProcessor);
             processor.addTask(task.getKey(), task.getValue());
 
-            if (actualProcessor < processorsSize - 1) {
+            if (actualProcessor < processorList.size() - 1) {
                 actualProcessor++;
             } else {
                 actualProcessor = 0;
@@ -107,7 +125,38 @@ public class Scheduler {
         return processedTasks;
     }
 
-    private static void generateOutputFile(String content) {
+    private static String processBJFPolicy (List<Processor> processorList, List<Map.Entry<String, Integer>> taskList) {
+        String processedTasks = "";
+        int actualProcessor = 0;
+
+        if (processorList.isEmpty() || taskList.isEmpty()) {
+            System.out.println("No processors or tasks to process.");
+            return processedTasks;
+        }
+
+        for (Map.Entry<String, Integer> task : taskList) {
+            Processor processor = processorList.get(actualProcessor);
+            processor.addTask(task.getKey(), task.getValue());
+
+            if (actualProcessor < processorList.size() - 1) {
+                actualProcessor++;
+            } else {
+                actualProcessor = 0;
+            }
+        }
+
+        StringBuilder processorTasks = new StringBuilder();
+
+        for (Processor processor : processorList) {
+            processorTasks.append("Processador_".concat(processorList.indexOf(processor) + 1 + "\n"));
+            processorTasks.append(processor.getProcessorTasks().concat("\n"));
+        }
+
+        processedTasks = processorTasks.toString();
+        return processedTasks;
+    }
+
+    private static void generateOutputFile(String content, String processorPolicy) {
 
         String path = Scheduler.class.getProtectionDomain().getCodeSource().getLocation().getPath();
         File jarFile = new File(path);
@@ -115,12 +164,12 @@ public class Scheduler {
 
         System.out.println("Path to main class: " + path);
 
-        File outputFile = new File(path + "/output.txt");
+        File outputFile = new File(path + "/" + processorPolicy + "output.txt");
         // if file exists append a number on output file name
         if (outputFile.exists()) {
             int i = 1;
             while (outputFile.exists()) {
-                outputFile = new File(path + "/output" + i + ".txt");
+                outputFile = new File(path + "/" + processorPolicy + "output" + i + ".txt");
                 i++;
             }
         }

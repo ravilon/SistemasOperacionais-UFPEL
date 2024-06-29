@@ -34,4 +34,11 @@ public class Processor {
         }
         return processorTasks.toString();
     }
+
+    public void clearProcessor() {
+        actualClock = 0;
+        task.clear();
+        taskClock.clear();
+        taskSize.clear();
+    }
 }

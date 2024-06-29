@@ -1,30 +1,39 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦”ãa8ø‚ª‘„2J$bbe00f92-e61a-4d9f-baed-ceee4fcb6fa6
-	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(¡“¥üÿÿÿÿ8ú‚ª‘„2J$fdb1e7aa-425c-4d95-9772-1d22e07dd6c9
-	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(şÃõ›üÿÿÿÿ8ú‚ª‘„2J$cdf22818-2ddb-42d7-8123-dbed5b60eb6b
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦”ãa8ÕÂ´¯†2J$02511dd9-6c78-42d3-8522-c87df7e7f98a
+ˆ	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(¢ºïõ8òëû¯†2J$36f240d7-5f52-420b-b51e-a2759b71ac06
+ˆ	java:S112M"FDefine and throw a dedicated exception instead of using a generic one.(¹Ï÷›8òëû¯†2J$924f54ee-8eb2-46ea-84a8-01c97f3f4675
 q
-java:S3740"/Provide the parametrized type for this generic.(äÙò(8ú‚ª‘„2J$db70b88c-f29d-48e0-afae-f649c06c798a
-w
-java:S3740;"/Provide the parametrized type for this generic.(şÃõ›üÿÿÿÿ8ú‚ª‘„2J$8627fc81-93c3-4993-9f41-ecc6d0d15de1
-w
-java:S3740="/Provide the parametrized type for this generic.(úò—‰øÿÿÿÿ8ú‚ª‘„2J$c8a7200e-480b-4046-a922-a84b7abbd1f0
-
-java:S2095C"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¦Äíóüÿÿÿÿ8ú‚ª‘„2J$b1e826d1-6348-41fe-b965-06bb22ab843e
+java:S3740"/Provide the parametrized type for this generic.(äÙò(8òëû¯†2J$e85ab194-cd9c-4851-b7f2-570f2cad9ce0
+r
+java:S3740M"/Provide the parametrized type for this generic.(¹Ï÷›8òëû¯†2J$65d1ab63-d5d2-4a44-b9ca-13b359a752ed
 ‘
-java:S2095ˆ"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(»Ì©éıÿÿÿÿ8ìÑâ‘„2J$be5d2a1d-049f-4c97-8b86-fa580460d4fc
+java:S2095¹"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(»Ì©éıÿÿÿÿ8òëû¯†2J$cfc342e9-3d42-4066-b701-f5cfd927acf2
+
+java:S2095S"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¦Äíóüÿÿÿÿ8òëû¯†2J$f3155e33-a8f0-45fb-afe3-4725ad09ec90
+©
+java:S4144€"`Update this method so that its implementation is not identical to "processSJFPolicy" on line 97.(÷„—Ùüÿÿÿÿ8ôëû¯†2J$dc98276d-4753-48bd-9e69-84fa1ad5f5ab
 m	java:S106
-"+Replace this use of System.out by a logger.(¹„å‰8ş‚ª‘„2J$1f1c73af-d5f6-4d9d-8e10-19961cf918eb
-r	java:S106"+Replace this use of System.out by a logger.(öĞ»Œùÿÿÿÿ8ş‚ª‘„2J$1cc42fc0-4917-47d8-b8fc-610f36c04ffd
-m	java:S106"+Replace this use of System.out by a logger.(ğä´ü8ş‚ª‘„2J$ea9e4b88-cb04-4d86-9387-1ef9d613d45e
-r	java:S106"+Replace this use of System.out by a logger.(¥ÓµÛÿÿÿÿÿ8ş‚ª‘„2J$456413c7-4ccb-41c7-b85e-ed8ba0f28621
-r	java:S106"+Replace this use of System.out by a logger.(©Ü»ßùÿÿÿÿ8ş‚ª‘„2J$2004a15c-f213-405e-9afd-291f21404d04
-m	java:S106$"+Replace this use of System.out by a logger.(²¨”×8ÿ‚ª‘„2J$b36b4b3d-a6a4-4b6f-aed9-3d9c3955ebb6
-l	java:S1060"+Replace this use of System.out by a logger.(¸Åß8€ƒª‘„2J$fa5143b3-22ac-4b3c-9469-640811fd81a6
-m	java:S1063"+Replace this use of System.out by a logger.(ĞôÙ™8€ƒª‘„2J$35ac0b70-8dd8-48a1-be21-e0bda45145f6
-r	java:S1064"+Replace this use of System.out by a logger.(§Šù³ùÿÿÿÿ8€ƒª‘„2J$36a28b26-5769-4fa8-b611-a122c2f9cb4d
-r	java:S106J"+Replace this use of System.out by a logger.(ˆ÷Îºıÿÿÿÿ8…ƒª‘„2J$cf53498a-1941-4c70-98c1-014d56a88e49
-m	java:S106T"+Replace this use of System.out by a logger.(ÄÚõÈ8†ƒª‘„2J$9785da7e-f06f-497a-9530-7c4d9e6ea92d
-m	java:S106t"+Replace this use of System.out by a logger.(ÏúÊ¸8² ¯‘„2J$da2f971f-6241-4f26-b461-322dc038495e
-…	java:S899"BDo something with the "boolean" value returned by "createNewFile".(´ÂÖÙ8² ¯‘„2J$4f37c32d-8a1e-435b-9a86-6929077a65b1
-s	java:S106ƒ"+Replace this use of System.out by a logger.(íšÎÄüÿÿÿÿ8¿‘±‘„2J$a3d3677c-b9bc-4ef7-9c1e-76b0b983dcd4
-n	java:S106Œ"+Replace this use of System.out by a logger.(–¼Şé8§…Õ‘„2J$cf29d407-0855-4ae3-bba7-8826c7aa82aa
+"+Replace this use of System.out by a logger.(¹„å‰8÷ëû¯†2J$798cee2e-d1f5-4713-b0c8-97a13022220e
+r	java:S106"+Replace this use of System.out by a logger.(öĞ»Œùÿÿÿÿ8÷ëû¯†2J$768f98dd-f41f-477d-b44b-a9e9794dc539
+m	java:S106"+Replace this use of System.out by a logger.(ğä´ü8÷ëû¯†2J$189f0efe-aace-40ec-96d1-f638648e4a45
+r	java:S106"+Replace this use of System.out by a logger.(¥ÓµÛÿÿÿÿÿ8øëû¯†2J$5985419f-3035-4a5c-bc88-8978e19a081c
+r	java:S106"+Replace this use of System.out by a logger.(©Ü»ßùÿÿÿÿ8ùëû¯†2J$a70deaff-3451-471b-a591-08ee3f7d2e7d
+m	java:S106$"+Replace this use of System.out by a logger.(²¨”×8úëû¯†2J$8a927817-9ae8-4f41-970e-4a562db45935
+l	java:S1060"+Replace this use of System.out by a logger.(¸Åß8ûëû¯†2J$8eaaee7c-03d5-429a-901c-ad3654e41ffa
+m	java:S1063"+Replace this use of System.out by a logger.(ĞôÙ™8ûëû¯†2J$af626ab2-e564-4341-9652-b1787f9057f4
+r	java:S1064"+Replace this use of System.out by a logger.(ù¤ªÅøÿÿÿÿ8üëû¯†2J$21a97881-b684-4ab2-b15e-9a78eb162214
+l	java:S106D"+Replace this use of System.out by a logger.(¸Åß8ÿëû¯†2J$baefb545-13e8-43bd-a62c-3249792c404e
+m	java:S106G"+Replace this use of System.out by a logger.(ĞôÙ™8ÿëû¯†2J$83784b1b-e094-4414-b4f7-744ad2acbdc9
+r	java:S106H"+Replace this use of System.out by a logger.(¨İßúÿÿÿÿ8ÿëû¯†2J$95817162-3a36-4044-a51e-3207b1ef8c4e
+r	java:S106Z"+Replace this use of System.out by a logger.(ˆ÷Îºıÿÿÿÿ8…ìû¯†2J$3fd215da-fa4e-4529-84f3-ae923afdaba4
+m	java:S106\"+Replace this use of System.out by a logger.(Ø«šê8†ìû¯†2J$28dcd68c-5691-4956-86b4-4dbdb327bef6
+m	java:S106f"+Replace this use of System.out by a logger.(ÄÚõÈ8‡ìû¯†2J$d2d1e41f-1d8f-424f-a10e-88a4e8602055
+n	java:S106…"+Replace this use of System.out by a logger.(ÄÚõÈ8‹ìû¯†2J$6bf2877b-bf28-479b-ab50-feb44e38f520
+n	java:S106¥"+Replace this use of System.out by a logger.(ÏúÊ¸8ìû¯†2J$ea424ed1-d8bd-406f-a38b-278a86dbd667
+o
+java:S1075§"&Remove this hard-coded path-delimiter.(¨Ì—ˆúÿÿÿÿ8ìû¯†2J$9c4ccd24-81d8-465b-8c11-72d3134bc750
+o
+java:S1075¬"&Remove this hard-coded path-delimiter.(èö¿­ùÿÿÿÿ8ìû¯†2J$1cf87568-d1e0-4b95-be0f-a1aeaa3a4fc1
+…	java:S899²"BDo something with the "boolean" value returned by "createNewFile".(´ÂÖÙ8ìû¯†2J$bcc466ff-0759-4045-95b1-d3e997798e3a
+s	java:S106´"+Replace this use of System.out by a logger.(íšÎÄüÿÿÿÿ8ìû¯†2J$8c4e0a95-35d4-4ddb-a8fd-a2b0d562f84a
+n	java:S106½"+Replace this use of System.out by a logger.(–¼Şé8ìû¯†2J$1d69b609-bb60-4cd4-b786-cb8ef1c48262
